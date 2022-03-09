@@ -1,22 +1,22 @@
 /* body elements */
 
-body{
+body {
   text-align: center;
 }
 
-#title .container-fluid{
+#title .container-fluid {
   padding: 5% 15% 5% 15%;
   text-align: left;
 }
 
 /* coloured sections */
 
-.white-section{
+.white-section {
   background-color: #fff;
 }
 
-.coloured-section{
-  background-color:  #ef8172;
+.coloured-section {
+  background-color: #ef8172;
   color: #fff;
 }
 
@@ -27,29 +27,31 @@ body{
 
 /* headings */
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Poppins";
   font-size: 2.5rem;
   line-height: 1.5;
   font-weight: bold;
 }
 
-.big-heading{
+.big-heading {
   padding-top: 50px;
   font-size: 3.5rem;
 }
 
-.cta-heading{
+.cta-heading {
   padding: 5% 5% 1% 5%;
 }
 
-.small-heading{
+.small-heading {
   font-size: 3.5rem;
-  padding: 5% 5% 5% 5%;
+  padding: 5% 5% 1% 5%;
 }
 
 @media (max-width: 1028px) {
-  #title{
+  #title {
     text-align: center;
   }
 }
@@ -61,7 +63,7 @@ h1, h2, h3 {
   margin: 5% 3% 5% 0;
 }
 
-.download-button1{
+.download-button1 {
   color: white;
   margin: 15%;
 }
@@ -72,19 +74,17 @@ h1, h2, h3 {
   position: relative;
 }
 
-.row{
+.row {
   padding: 0 7.5%;
 }
 
-.rotate-img{
-  transform:
-  rotate(20deg);
+.rotate-img {
+  transform: rotate(20deg);
   width: 60%;
   position: relative;
   top: 160px;
   right: 50px;
 }
-
 
 /* Nav Bar */
 
@@ -92,104 +92,133 @@ h1, h2, h3 {
   padding: 0 0 4.5rem;
 }
 
-.nav-link{
+.navbar-nav {
+  position: relative;
+  left: 70%;
+  font-size: 3rem;
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbar-nav .nav-link {
+    position: relative;
+    left: -80%;
+    color: black;
+  }
+}
+
+.nav-link {
   padding: 0.5rem;
   font-size: 1.2rem;
 }
 
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2rem;
-  font-weight:bold;
+  font-weight: bold;
   padding: 2% 2% 2% 3%;
 }
 
 /* Awesome Icons */
 
-.fa-heart, .fa-bullseye, .fa-check-circle {
+.fa-heart,
+.fa-bullseye,
+.fa-check-circle {
   color: #ef8172;
 }
 
-.fa-check-circle{
+.fa-check-circle {
   padding-top: 12.5%;
+  padding-bottom: 2%;
+  font-size: 5.5rem;
+  padding-top: 5%;
 }
 
-.fa-heart:hover, .fa-bullseye:hover, .fa-check-circle:hover {
+.fa-heart:hover,
+.fa-bullseye:hover,
+.fa-check-circle:hover {
   color: #ff4c68;
 }
 
 /* features section */
 
-#features{
+#features {
   position: relative;
 }
 
-.feature-box{
+.feature-box {
   padding: 7.5%;
 }
 
-.features-title{
-font-size: 1.5rem;
-font-family: "Poppins";
-font-weight: bold;
+.features-title {
+  font-size: 1.5rem;
+  font-family: "Poppins";
+  font-weight: bold;
 }
 
-.features-p{
+.features-p {
   color: #8f8f8f;
   font-size: 1.1rem;
 }
 
 /* Testimonial Section */
 
-.testimonial-image{
+.testimonial-image {
   border-radius: 50%;
   width: 30%;
   height: 300px;
   margin: 5%;
 }
 
-@media(max-width: 600px){
-  .testimonial-image{
+@media (max-width: 600px) {
+  .testimonial-image {
     margin-bottom: 30%;
     width: 50%;
   }
 }
 
-.testimonial-text{
-  padding:7.5% 3% 7% 3%;
+.testimonial-text {
+  padding: 7.5% 3% 7% 3%;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  width: 20%;
+  height: 20%;
 }
 
 /* Press Section */
 
-#press{
+#press {
   position: relative;
-
 }
 
-.press-img{
+.press-img {
   width: 15%;
   margin: 20px 20px 50px;
-
 }
 
 /* Pricing Section */
 
-#pricing{
+#pricing {
   padding: 100px;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
 
 /* Footer */
 
-
-#footer{
+#footer {
   color: grey;
   padding-top: 3%;
 }
 
-.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-envelope {
-  margin: 2%;
+#footer button {
+  border: none;
+  background-color: white;
+}
+
+#footer button:hover {
+  font-size: 1.75rem;
 }

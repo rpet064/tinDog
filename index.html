@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TinDog</title>
+  <title id="title">TinDog</title>
   <!-- Google  Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Licorice&family=Montserrat:wght@100;400;700;900&family=Poppins&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
   <!-- CSS Stylesheets -->
@@ -32,7 +32,7 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <div class="container-fluid">
-          <ul class="navbar-nav ms-auto">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" href="#footer">Contact</a>
             </li>
@@ -91,7 +91,7 @@
     <div id="testimonial-carousel" class="carousel slide" data-ride="false">
       <div class="carousel-inner">
         <div class="carousel-item container-fluid">
-          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
+          <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life.</h2>
           <img class="testimonial-image" src="images/personal-photo.png" alt="lady-profile">
           <em>Robert, Auckland</em>
         </div>
@@ -215,13 +215,15 @@
 
   <footer class="white-section" id="footer">
     <div class="container-fluid">
-      <i class="fab fa-twitter"></i>
-      <i class="fab fa-facebook-f"></i>
-      <i class="fab fa-instagram"></i>
-      <i class="fas fa-envelope"></i>
+      <button class="btn">
+      <a onclick="location.replace('https://github.com/rpet064/tinDog')" class="fab fa-github"></a>
+      </button>
+      <button class="btn">
+      <a onclick="location.replace('mailto:rpether@hotmail.com')" class="fas fa-envelope" ></a>
+      </button>
       <p class="footer">© Copyright 2022 RobDog</p>
     </div>
-  </footer>
+    </footer>
 
 
 </body>
